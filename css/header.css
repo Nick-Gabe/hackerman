@@ -1,0 +1,19 @@
+header {
+    color: var(--pmr-color);
+    height: 45px;
+    border-bottom: 2px solid currentColor;
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+}
+
+h1 {
+    user-select: none;
+    color: var(--pmr-color);
+    font-family: 'Source Code Pro', sans-serif;
+    margin: 0 10px;
+}
+
+#title:hover {
+    cursor: pointer;
+}

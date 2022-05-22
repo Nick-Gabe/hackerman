@@ -1,0 +1,31 @@
+main {
+    padding: 10px 10px 50px 20px;
+}
+
+main > p {
+    display: inline;
+    width: 100%;
+    resize: none;
+    font-family: 'Source Code Pro', sans-serif;
+    background-color: transparent;
+}
+
+main > p, .code--pointer {
+    font-size: 1.2rem;
+    color: var(--pmr-color);
+    white-space: break-spaces;
+    word-break: break-word;
+}
+
+.code--pointer {
+    font-weight: 900;
+    position: relative;
+    bottom: 2px;
+    animation: blink 1s ease infinite;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
